@@ -17,7 +17,7 @@ function determineWinner(usersChoice, computersChoice) {
     ) {
         userScore += 1
         return "You Win";
-    } else {  
+    } else {
         ComputerScore += 1
         return "Computer Wins";
     }

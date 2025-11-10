@@ -7,7 +7,7 @@ function updateTime() {
         let hours = date.getHours()
         let minutes = date.getMinutes()
         let seconds = date.getSeconds()
-        
+
         if (seconds < 10) {
             seconds = "0" + seconds
         }
@@ -17,7 +17,7 @@ function updateTime() {
         if (minutes < 10) {
             minutes = "0" + minutes
         }
-        
+
         if (hours > 12) {
             hours = hours % 12
         }

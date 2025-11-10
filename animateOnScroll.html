@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+        @keyframes appear {
+            from {
+                opacity: 0;
+                scale: 0.3;
+            }
+
+            to {
+                opacity: 1;
+                scale: 1;
+            }
+        }
+
+        .animateIntoView {
+            height: 200px;
+            animation: appear linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 40%;
+        }
+
+        body {
+            margin-bottom: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="height: 100vh;"></div>
+    <div style="display: flex; flex-wrap: wrap; flex-direction: row; gap: 50px;">
+        <div id="box" class="animateIntoView" style="background-color: aqua; width: 300px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: red; width: 300px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: yellow; width: 290px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: green; width: 80px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: violet; width: 200px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: blue; width: 260px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: black; width: 344px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: gray; width: 700px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: plum; width: 490px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: indigo; width: 210px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: aqua; width: 10px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: indianred; width: 340px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: aqua; width: 280px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: chartreuse; width: 100px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: yellowgreen; width: 200px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: goldenrod; width: 420px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: aqua; width: 125px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: lime; width: 310px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: brown; width: 590px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: blueviolet; width: 300px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: lightgreen; width: 100px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: pink; width: 290px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: aqua; width: 80px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: gainsboro; width: 200px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: aqua; width: 260px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: indianred; width: 144px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: indigo; width: 700px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: plum; width: 490px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: green; width: 110px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: khaki; width: 10px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: aqua; width: 340px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: red; width: 280px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: rebeccapurple; width: 100px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: purple; width: 200px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: peru; width: 420px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: powderblue; width: 125px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: blue; width: 310px;"></div>
+        <div id="box" class="animateIntoView" style="background-color: aqua; width: 590px;"></div>
+    </div>
+</body>
+
+</html>
